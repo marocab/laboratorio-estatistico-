@@ -102,6 +102,8 @@ Exemplo de validação com dados reais (Life Ladder do Brasil, 17 observações)
 - **Módulo 5 — Correlação e regressão linear:** seleção de duas variáveis numéricas (X e Y), diagrama de dispersão com reta de regressão, equação da reta, coeficiente de correlação de Pearson, R², interpretação dos coeficientes, campo de predição interativa (usuário digita X, aplicação retorna Ŷ), e alerta de que correlação não implica causalidade.
 - **Módulo 6 — Relatório de descobertas:** descrito na seção 5.
 
+As capturas de tela de cada módulo em funcionamento (regressão, distribuições teóricas, estatística descritiva, Teorema Central do Limite e Lei dos Grandes Números) estão disponíveis na pasta [`capturas/`](./capturas/) e referenciadas no `README.md`.
+
 ## 5. As 3 descobertas estatísticas mais interessantes
 
 ### Descoberta 1 — A felicidade tem geografia: o topo do ranking é dominado por países nórdicos e europeus
@@ -114,7 +116,7 @@ O Brasil registra média de `life_ladder` de **6,564**, contra uma média mundia
 
 ### Descoberta 3 — O PIB per capita é a variável isoladamente mais correlacionada com a felicidade
 
-Testando a correlação de Pearson entre `life_ladder` e todas as demais variáveis numéricas, `log_gdp_per_capita` apresenta a correlação mais forte (r = 0,785), à frente de `social_support` (0,722) e `healthy_life_expectancy_at_birth` (0,713). A regressão linear simples resultou em:
+Testando a correlação de Pearson entre `life_ladder` e todas as demais variáveis numéricas, `log_gdp_per_capita` apresenta a correlação mais forte (r = 0,7849), à frente de `social_support` (0,722) e `healthy_life_expectancy_at_birth` (0,713). A regressão linear simples resultou em:
 
 $$\text{life\_ladder} = 0{,}7634 \times \text{log\_gdp\_per\_capita} - 1{,}6832 \qquad R^2 = 0{,}616$$
 
@@ -123,3 +125,5 @@ Ou seja, **61,6% da variação da felicidade entre países é explicada linearme
 ## 6. Conclusão
 
 O desenvolvimento do laboratório estatístico permitiu validar, na prática, que fórmulas estatísticas implementadas manualmente reproduzem com precisão os resultados de bibliotecas consolidadas como o NumPy — reforçando a compreensão matemática por trás de cada cálculo, em vez de tratá-lo como uma "caixa-preta". A aplicação a um dataset real e relevante (felicidade global) tornou possível extrair descobertas concretas e interpretáveis, cumprindo o objetivo central da atividade.
+
+Entre as três descobertas, a mais reveladora talvez seja a própria limitação apontada na Descoberta 3: por mais forte que seja a correlação entre PIB per capita e felicidade (r = 0,7849), ela sozinha não fecha a explicação — o topo do ranking (Descoberta 1) mostra que suporte social e expectativa de vida saudável caminham junto com a riqueza, reforçando que bem-estar é um fenômeno multifatorial, e não redutível a uma única variável econômica.

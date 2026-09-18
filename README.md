@@ -4,7 +4,7 @@
 
 - **Nome completo:** Maria Mariana Barreto Carvalho
 - **RA/Matrícula:** 72650444
-- **Disciplina:** Matemática e Estatística para Sistematização
+- **Disciplina:** Matemática e Estatística para Computação — Turma B - 0726
 - **Instituição:** UniCEUB
 
 ## Descrição do projeto

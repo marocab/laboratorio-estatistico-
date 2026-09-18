@@ -91,7 +91,25 @@ Todas as 14 funções do núcleo estatístico são validadas contra o NumPy, com
 
 ## Capturas de tela
 
-*(Adicionar aqui prints ou GIF da aplicação em funcionamento antes da entrega final)*
+**Correlação e regressão linear** — dispersão entre PIB per capita (log) e felicidade, com reta de regressão, equação, correlação de Pearson (r = 0,7849) e R² = 0,616:
+
+![Regressão linear entre PIB per capita e felicidade](./capturas/regressao.png)
+
+**Distribuições teóricas** — histograma real de `life_ladder` com curva Normal ajustada sobreposta:
+
+![Ajuste de distribuições teóricas](./capturas/distribuicoes_teoricas.png)
+
+**Estatística descritiva** — medidas de dispersão, quartis, outliers (regra do IQR) e interpretação automática, com histograma e boxplot de `life_ladder`:
+
+![Estatística descritiva de life_ladder](./capturas/estatistica_descritiva.png)
+
+**Teorema Central do Limite** — distribuição original de `life_ladder` (esquerda) e distribuição das médias amostrais se aproximando de uma curva Normal (direita):
+
+![Teorema Central do Limite](./capturas/teorema_central_limite.png)
+
+**Lei dos Grandes Números** — convergência da frequência relativa de "cara" em lançamentos de moeda simulados até a probabilidade teórica (0,5):
+
+![Lei dos Grandes Números](./capturas/lei_grandes_numeros.png)
 
 ## Relatório
 

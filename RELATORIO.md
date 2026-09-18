@@ -1,7 +1,8 @@
-# Relatório — Laboratório Estatístico Interativo
+# Sistematização — Matemática e Estatística para Computação: Construindo o Seu Laboratório Estatístico
 
 **Aluna:** Maria Mariana Barreto Carvalho — RA/DRT: 72650444
-**Disciplina:** Matemática e Estatística para Sistematização
+**Disciplina:** Matemática e Estatística para Computação — Turma B - 0726
+**Instituição:** UniCEUB
 
 ---
 

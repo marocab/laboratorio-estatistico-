@@ -5,6 +5,7 @@
 - **Nome completo:** Maria Mariana Barreto Carvalho
 - **RA/Matrícula:** 72650444
 - **Disciplina:** Matemática e Estatística para Computação — Turma B - 0726
+- **Professor:** Romes Heriberto
 - **Instituição:** UniCEUB
 
 ## Descrição do projeto
